@@ -11,4 +11,4 @@ This repo is for samples from [ddods](https://www.dailydoseofds.com/). The follo
 ### Brief summary of examples
 | Topic  |  Category | Read Me | Article Link  |  Code Link | Python Requirements Link |
 |---|---|---|---|---|---|
-|  RAG Tutorial Part 1 | RAG   | [Link](./src/rag-project/README.md)| [Link](https://www.dailydoseofds.com/a-crash-course-on-building-rag-systems-part-1-with-implementations/) | [Link](./src/rag-project/rag-part-1.ipynb)  | [Link](./src/rag-project/requirements.txt)   |
+|  AGENTS Tutorial Part 1 | Agents   | [Link](./src/agents-project/README.md)| [Link](https://www.dailydoseofds.com/ai-agents-crash-course-part-1-with-implementation/) | [Link](./src/agents-project/agents-part-1.ipynb)  | [Link](./src/agents-project/requirements.txt)   |

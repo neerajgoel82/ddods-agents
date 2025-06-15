@@ -1,3 +1,4 @@
+*pycache*
 docs/output.md
 *.env
 *.DS_Store

@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Agents Part 1",
+            "name": "Python: [Part 2] - Basic Research Example",
             "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/src/agents-project/agents-part-1/agents-part-1-main.py",
+            "program": "${workspaceFolder}/src/agents-project/part2/examples/basic_research_example.py",
             "console": "integratedTerminal",
             "justMyCode": true
         }

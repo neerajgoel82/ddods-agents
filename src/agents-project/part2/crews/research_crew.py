@@ -1,31 +1,35 @@
 from crewai import Agent, Crew, Task, Process
 from crewai.project import CrewBase, agent, task, crew
 from crewai_tools import SerperDevTool
+import yaml
 
 @CrewBase
 class ResearchCrew:
     """A crew for conducting research, summarizing findings, and fact-checking"""
-
+    
     agents_config = 'config/agents.yaml'
     tasks_config = 'config/tasks.yaml'
 
-    def __init__(self, llm):
+    def __init__(self, llm:
         self.search_tool = SerperDevTool()
         self.llm = llm
 
     @agent
     def research_agent(self) -> Agent:
         return Agent(config=self.agents_config['research_agent'],
-                     tools=[self.search_tool])
+                     tools=[self.search_tool], 
+                     llm=self.llm)
 
     @agent
     def summarization_agent(self) -> Agent:
-        return Agent(config=self.agents_config['summarization_agent'])
+        return Agent(config=self.agents_config['summarization_agent'],
+                     llm=self.llm)
 
     @agent
     def fact_checker_agent(self) -> Agent:
         return Agent(config=self.agents_config['fact_checker_agent'],
-                     tools=[self.search_tool])
+                     tools=[self.search_tool],
+                     llm=self.llm)
 
     @task
     def research_task(self) -> Task:
@@ -45,5 +49,4 @@ class ResearchCrew:
     def crew(self) -> Crew:
         return Crew(agents=self.agents,
                     tasks=self.tasks,
-                    llm=self.llm,
                     process=Process.sequential)

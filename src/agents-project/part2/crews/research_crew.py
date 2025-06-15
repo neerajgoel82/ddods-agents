@@ -10,7 +10,7 @@ class ResearchCrew:
     agents_config = 'config/agents.yaml'
     tasks_config = 'config/tasks.yaml'
 
-    def __init__(self, llm:
+    def __init__(self, llm):
         self.search_tool = SerperDevTool()
         self.llm = llm
 

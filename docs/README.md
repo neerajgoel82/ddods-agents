@@ -14,8 +14,8 @@
 | AI Agents Crash Course - Part 10 | Implementation guide for the ReAct agentic pattern, covering step-by-step development and best practices. | [Part 10 Summary](articles/summary/10_ai_agents_react_pattern_summary.md) |
 | AI Agents Crash Course - Part 11 | Comprehensive guide to implementing planning agentic patterns, including practical examples and code walkthroughs. | [Part 11 Summary](articles/summary/11_ai_agents_planning_pattern_summary.md) |
 | AI Agents Crash Course - Part 12 | Detailed implementation guide for multi-agent patterns, focusing on agent collaboration and system architecture. | [Part 12 Summary](articles/summary/12_ai_agents_part12_summary.md) |
-| AI Agents Complete Guide Series | Complete compilation of the AI Agents series, including all parts and additional web resources for comprehensive learning. | [Complete Guide](articles/summary/14_ai_agents_complete_guide_series_plus_web.md) |
-| CrewAI Framework Guide | Comprehensive guide to the CrewAI framework, covering setup, implementation, and best practices for building agentic systems. | [CrewAI Guide](articles/summary/15_crewai_summary.md) |
+| AI Agents Complete Guide Series | Complete compilation of the AI Agents series, including all parts and additional web resources for comprehensive learning. | [Complete Guide](articles/summary/13_ai_agents_complete_guide_series_summary.md) |
+| CrewAI Framework Guide | Comprehensive guide to the CrewAI framework, covering setup, implementation, and best practices for building agentic systems. | [CrewAI Guide](articles/summary/14_crewai_summary.md) |
 
 ## Full Articles
 For detailed PDF versions of these articles, please refer to the [full articles directory](articles/full/).

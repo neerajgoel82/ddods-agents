@@ -199,11 +199,11 @@ Flows provide event-driven workflow control with sophisticated state management 
 **Flow Control Mechanisms:**
 ```mermaid
 graph TD
-    Start[@start] --> Method1[Method 1]
-    Method1 --> Listen1[@listen Method1]
+    Start[start] --> Method1[Method 1]
+    Method1 --> Listen1[listen Method1]
     Listen1 --> Method2[Method 2]
     
-    Router[@router] --> Choice{Decision}
+    Router[router] --> Choice{Decision}
     Choice -->|Condition A| PathA[Path A]
     Choice -->|Condition B| PathB[Path B]
     

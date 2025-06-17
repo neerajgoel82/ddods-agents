@@ -450,7 +450,7 @@ Memory is the most critical component for agent effectiveness. Without memory, a
 ```mermaid
 graph TD
     subgraph "Flow Control Architecture"
-        A[@start Method] --> B[Entry Point]
+        A[start Method] --> B[Entry Point]
         B --> C{Flow State}
         C --> D[@listen Method 1]
         C --> E[@listen Method 2]

@@ -452,9 +452,9 @@ graph TD
     subgraph "Flow Control Architecture"
         A[start Method] --> B[Entry Point]
         B --> C{Flow State}
-        C --> D[@listen Method 1]
-        C --> E[@listen Method 2]
-        C --> F[@listen Method 3]
+        C --> D[listen Method 1]
+        C --> E[listen Method 2]
+        C --> F[listen Method 3]
         
         D --> G[Conditional Logic]
         E --> G
